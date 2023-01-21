@@ -2,7 +2,8 @@
 -Best case run time is O(n)
 -Worst case run time is O(n^2)
 """
-
+import random
+random.seed("ABC")
 
 def insertion_sort(array):
     """we start at 2nd index of the arr and iterate over length of the arry"""
@@ -21,6 +22,7 @@ def insertion_sort(array):
     return array
 
 
-arr = [2, 5, 7, 3, 4, 1]
+arr = [random.randint(0, 1000) for _ in range(100)]
+print(arr)
 
 print(insertion_sort(arr))

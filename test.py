@@ -1,18 +1,5 @@
-import random
+def print_left_oriented_triangle(height, symbol):
+    for i in range(1, height + 1):
+        print(symbol * i)
 
-random.seed("ABC")
-
-
-def
-
-
-def main():
-    array = [random.randint(0, 1000) for _ in range(100)]
-    print("Original array:", array)
-
-    merge_sort(array)
-    print("Sorted array:", array)
-
-
-if __name__ == "__main__":
-    main()
+print_left_oriented_triangle(6,"*")

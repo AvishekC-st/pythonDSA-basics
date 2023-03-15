@@ -69,4 +69,5 @@ Space complexity:
 
 We create a new array ans with double the length of nums. Therefore, the space complexity of the solution is O(n).
 In the alternative solution that uses the * operator to repeat the elements of nums twice, the time complexity is also 
-O(n), but the space complexity is O(2n) or O(n)."""
+O(n), but the space complexity is O(2n) or O(n).
+"""
